@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <h1>🐍 Snake Water Gun 💧</h1>
+        <p class="subtitle">Choose your weapon!</p>
+
+        <div class="score-board">
+            <div>
+                <h3>You</h3>
+                <p id="player-score">0</p>
+            </div>
+
+            <div>
+                <h3>Computer</h3>
+                <p id="computer-score">0</p>
+            </div>
+        </div>
+
+        <div class="choices">
+
+            <button class="choice" id="snake">
+                🐍
+                <span>Snake</span>
+            </button>
+
+            <button class="choice" id="water">
+                💧
+                <span>Water</span>
+            </button>
+
+            <button class="choice" id="gun">
+                🔫
+                <span>Gun</span>
+            </button>
+
+        </div>
+
+        <div class="result">
+            <p id="player-choice">You: —</p>
+            <p id="computer-choice">Computer: —</p>
+
+            <h2 id="result-text">Choose an option to start!</h2>
+        </div>
+
+        <button class="reset-button" id="reset">
+            New Game
+        </button>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
